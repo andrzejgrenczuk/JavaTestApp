@@ -49,7 +49,9 @@ public class Main extends CalcOPS {
             }
         /*System.out.println("Podałeś PESEL: "+ pesel.toString());
         person.setPesel(pesel);*/
-        System.out.println("Konwersja PESEL ze Stringa na intiger: " + Long.parseLong(pesel));
+        System.out.println("Konwersja PESEL ze Stringa na Long: " + Long.parseLong(pesel));
+        System.out.println("Ważne, okazuje się że numer PESEL nie może być typu Integer, ponieważ nie jest wstanie zmiescić długości 11 znaków");
+        System.out.println("---------------------------------------------------------------------------------------------------------------");
         System.out.println("Podaj rodzaj operacji:\n"
                 + "1 - Dodawanie,\n"
                 + "2 - Odejmowanie,\n"
