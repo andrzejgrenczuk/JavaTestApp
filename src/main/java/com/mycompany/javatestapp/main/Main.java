@@ -30,23 +30,25 @@ public class Main extends CalcOPS {
         System.out.println(person.getClass());
         System.out.println(person.toString());
         System.out.print("Nadaj imie osobie: ");
-        String imie = sc.next();
+        String imie = sc.nextLine();
         person.setImie(imie);
         System.out.println("Person nadałeś imie: " + imie);
         System.out.print("Podaj nazwisko: ");
-        String nazwisko = sc.next();
+        String nazwisko = sc.nextLine();
         person.setNazwisko(nazwisko);
         System.out.println("Podałeś nazwisko: " + nazwisko);
         System.out.println("Stworzyłeś osobę: "+imie+" "+nazwisko);
         System.out.print("Podaj swój numer PESEL: ");
-        String pesel = sc.next();
-            if (pesel.length() != peselLenght){
+        String pesel = sc.nextLine();
+            /*if (pesel.length() != peselLenght){
                 System.out.println("Podany PESEL ma nie właściwą długość!");
             }else{
                 //return int pesel1;
                 System.out.println("Podałeś PESEL: "+ pesel);
                 person.setPesel(pesel);
-            }
+            }*/
+        System.out.println("Podałeś PESEL: "+ pesel.toString());
+        person.setPesel(pesel);
         System.out.print("Konwersja PESEL ze Stringa na intiger: " + Integer.parseInt(pesel));
         System.out.println("Podaj rodzaj operacji:\n"
                 + "1 - Dodawanie,\n"
