@@ -1,6 +1,8 @@
+com\mycompany\javatestapp\interfejsy\Interfejs1.class
 com\mycompany\javatestapp\test\CalcOPS.class
 com\mycompany\javatestapp\Person\Person.class
 com\mycompany\javatestapp\test\Kalkulator.class
+com\mycompany\javatestapp\interfejsy\implementacja\Interfejs1Impl.class
 com\mycompany\javatestapp\Person\Czlowiek.class
 com\mycompany\javatestapp\Person\Osoba.class
 com\mycompany\javatestapp\main\Main.class

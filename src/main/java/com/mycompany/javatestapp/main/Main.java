@@ -40,16 +40,16 @@ public class Main extends CalcOPS {
         System.out.println("Stworzyłeś osobę: "+imie+" "+nazwisko);
         System.out.print("Podaj swój numer PESEL: ");
         String pesel = sc.nextLine();
-            /*if (pesel.length() != peselLenght){
+            if (pesel.length() != 11){
                 System.out.println("Podany PESEL ma nie właściwą długość!");
             }else{
                 //return int pesel1;
                 System.out.println("Podałeś PESEL: "+ pesel);
                 person.setPesel(pesel);
-            }*/
-        System.out.println("Podałeś PESEL: "+ pesel.toString());
-        person.setPesel(pesel);
-        System.out.print("Konwersja PESEL ze Stringa na intiger: " + Integer.parseInt(pesel));
+            }
+        /*System.out.println("Podałeś PESEL: "+ pesel.toString());
+        person.setPesel(pesel);*/
+        System.out.println("Konwersja PESEL ze Stringa na intiger: " + Long.parseLong(pesel));
         System.out.println("Podaj rodzaj operacji:\n"
                 + "1 - Dodawanie,\n"
                 + "2 - Odejmowanie,\n"
