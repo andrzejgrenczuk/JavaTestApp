@@ -23,7 +23,7 @@
     <configuration>
         <archive>
             <manifest>
-                <mainClass>com.mycompany.javatestapp.main.Main</mainClass>
+                <mainClass>pl.grenczuk.javatestapp.main.Main</mainClass>
             </manifest>
         </archive>
     </configuration>
