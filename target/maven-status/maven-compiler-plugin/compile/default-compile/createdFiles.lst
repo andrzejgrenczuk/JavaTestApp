@@ -6,4 +6,5 @@ com\mycompany\javatestapp\interfejsy\implementacja\Interfejs1Impl.class
 com\mycompany\javatestapp\Person\Czlowiek.class
 com\mycompany\javatestapp\Person\Osoba.class
 com\mycompany\javatestapp\main\Main.class
+com\mycompany\javatestapp\Person\Pesel.class
 com\mycompany\javatestapp\test\test.class
