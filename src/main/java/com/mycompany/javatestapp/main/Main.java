@@ -5,12 +5,10 @@
  */
 package com.mycompany.javatestapp.main;
 
-import com.mycompany.javatestapp.Person.Czlowiek;
-import com.mycompany.javatestapp.Person.Osoba;
 import com.mycompany.javatestapp.Person.Person;
 import com.mycompany.javatestapp.Person.Pesel;
-import com.mycompany.javatestapp.test.CalcOPS;
-import com.mycompany.javatestapp.test.Kalkulator;
+import com.mycompany.javatestapp.kalkulator.CalcOPS;
+import com.mycompany.javatestapp.kalkulator.Kalkulator;
 
 import java.io.IOException;
 import java.util.Scanner;
