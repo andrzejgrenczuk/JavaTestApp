@@ -56,7 +56,9 @@ public class Main extends CalcOPS {
         System.out.println("Konwersja PESEL ze Stringa na Long: " + Long.parseLong(pesel));
         System.out.println("Ważne, okazuje się że numer PESEL nie może być typu Integer, ponieważ nie jest wstanie zmiescić długości 11 znaków");
         System.out.println("---------------------------------------------------------------------------------------------------------------");
-        Kalkulator kalk =new Kalkulator();
+        Kalkulator kalk = new Kalkulator();
+
+
     }
         System.exit(0);
 
